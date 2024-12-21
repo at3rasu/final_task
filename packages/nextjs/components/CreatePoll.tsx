@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useScaffoldWriteContract } from "~~/hooks/scaffold-eth";
 
-// Типизация пропсов для компонента OptionInput
 interface OptionInputProps {
   optionInput: string;
   setOptionInput: React.Dispatch<React.SetStateAction<string>>;

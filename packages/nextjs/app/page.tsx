@@ -21,7 +21,7 @@ const Page: NextPage = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <h1 className="text-3xl font-bold text-center text-black mb-8">Голосование</h1>
-      <div className="flex gap-10">
+      <div className="flex gap-10 mb-6">
         <div className="w-1/2">
           <CreatePoll />
         </div>

@@ -18,7 +18,7 @@ export default function PollList() {
   };
 
   return (
-    <div className="p-8 bg-blue-600 text-white rounded-lg shadow-xl mx-auto max-w-4xl">
+    <div className="p-8 bg-blue-600 text-white rounded-lg shadow-xl">
       <h2 className="text-3xl font-semibold mb-6 text-center">Список голосований</h2>
       {pollCount && pollCount > 0 ? renderPolls() : <p className="text-xl text-center">Нет активных голосований</p>}
     </div>
